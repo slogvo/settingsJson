@@ -1,0 +1,107 @@
+{
+  "editor.tabCompletion": "onlySnippets",
+  "editor.snippetSuggestions": "top",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#19c6e588"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.color": "#a78bfa",
+  "editor.fontFamily": "SF Mono,\"Consolas\"",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "workbench.editor.wrapTabs": true,
+  "editor.wordWrap": "on",
+  "npm.runInTerminal": false,
+  "npm.includeDirectories": ["subdir1/path", "subdir2/path"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": false
+  },
+  "indentRainbow.colors": [
+    "rgb(153, 221, 204, 0.025);",
+    "rgb(255, 93, 162,0.025);",
+    "rgb(156, 25, 224,0.025);)",
+    "rgb(0, 13, 107,0.025);"
+  ],
+  "editor.tokenColorCustomizations": {
+    "[Evondev Dracula Normal Contrast]": {
+      "textMateRules": [
+        {
+          "scope": "variable.other.constant.js",
+          "settings": {
+            "foreground": "#84DFFF"
+          }
+        },
+        {
+          "scope": "variable.other.property.js",
+          "settings": {
+            "foreground": "#6be7b2"
+          }
+        },
+        {
+          "scope": "string",
+          "settings": {
+            "foreground": "#f7f8aaf6"
+          }
+        },
+        {
+          "scope": "variable.other.object",
+          "settings": {
+            "foreground": "#6eabf1"
+          }
+        },
+        {
+          "scope": "meta.brace.round",
+          "settings": {
+            "foreground": "#fff"
+          }
+        },
+        {
+          "scope": "variable.other.readwrite.js",
+          "settings": {
+            "foreground": "#c0c6fd"
+          }
+        }
+      ]
+    }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "editor.lineHeight": 1.8,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Evondev Dracula Normal Constrast",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "postcss": "css"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.alwaysShowStatus": true,
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "editor.suggestSelection": "first",
+  "editor.wordWrapColumn": 100,
+  "powermode.combo.timeout": 0,
+  "powermode.shake.enabled": false,
+  "powermode.explosions.size": 5,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.enabled": true,
+  "powermode.combo.counterSize": 2,
+  "color-highlight.markerType": "underline",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "editor.accessibilitySupport": "off",
+  "editor.tabSize": 2,
+  "npm.keybindingsChangedWarningShown": true,
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on",
+    "other": "on"
+  }
+}
