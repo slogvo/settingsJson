@@ -77,7 +77,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "vue-html": "html",
-    "postcss": "css"
   },
   "emmet.triggerExpansionOnTab": true,
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
