@@ -1,0 +1,99 @@
+.mtk5 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(0deg, rgb(50, 247, 175), #21ebb5);
+}
+
+.mtk14 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(
+    45deg,
+    rgb(255, 194, 173),
+    rgb(255, 241, 173)
+  );
+}
+
+.mtk15 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(
+    90deg,
+    rgb(247, 118, 204),
+    rgb(255, 80, 237)
+  );
+}
+
+.mtk17 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(
+    45deg,
+    rgb(52, 204, 250),
+    rgb(21, 196, 254)
+  );
+}
+
+.mtk18 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(
+    180deg,
+    rgb(155, 126, 251),
+    rgb(171, 107, 250)
+  );
+}
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    #20e3b2,
+    #ffcc70,
+    #c850c0,
+    #4158d0
+  );
+  animation: gradient 5s ease alternate infinite;
+  height: 2px;
+  border-radius: 4px;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.monaco-editor .cursors-layer .cursor {
+  background-image: linear-gradient(
+    135deg,
+    rgb(244, 183, 62),
+    rgb(247, 54, 83)
+  );
+}
