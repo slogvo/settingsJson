@@ -1,19 +1,16 @@
 {
   "editor.tabCompletion": "onlySnippets",
   "editor.snippetSuggestions": "top",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#19c6e588"
   },
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.color": "#a78bfa",
-  "editor.fontFamily": "SF Mono,\"Consolas\"",
+  "editor.fontFamily": "\"SF Mono Ligatures\"",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
   "workbench.editor.wrapTabs": true,
   "editor.wordWrap": "on",
-  "npm.runInTerminal": false,
-  "npm.includeDirectories": ["subdir1/path", "subdir2/path"],
+
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": false
@@ -66,22 +63,22 @@
       ]
     }
   },
-  "tabnine.experimentalAutoImports": true,
-  "editor.lineHeight": 1.8,
+
+  "editor.lineHeight": 2,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Evondev Dracula Normal Constrast",
+  "workbench.colorTheme": "Evondev Dracula Normal Constrast - No Highlight",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-html": "html",
+    "vue-html": "html"
   },
   "emmet.triggerExpansionOnTab": true,
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "eslint.alwaysShowStatus": true,
+
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "editor.suggestSelection": "first",
   "editor.wordWrapColumn": 100,
@@ -92,15 +89,27 @@
   "powermode.enabled": true,
   "powermode.combo.counterSize": 2,
   "color-highlight.markerType": "underline",
-  "bracket-pair-colorizer-2.depreciation-notice": false,
   "git.autofetch": true,
   "git.confirmSync": false,
   "editor.accessibilitySupport": "off",
   "editor.tabSize": 2,
-  "npm.keybindingsChangedWarningShown": true,
   "editor.quickSuggestions": {
     "comments": "on",
     "strings": "on",
     "other": "on"
-  }
+  },
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "files.associations": {
+    "*.php": "php"
+  },
+  "npm.keybindingsChangedWarningShown": true,
+  "tabnine.experimentalAutoImports": true,
+  "window.zoomLevel": 0.5,
+  "editor.fontSize": 15,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/ASUS/VSCode_Extension/colorsText.css"
+  ]
 }
