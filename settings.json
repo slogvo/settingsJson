@@ -2,10 +2,11 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.snippetSuggestions": "top",
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#19c6e588"
+    "titleBar.activeBackground": "#27bee8ef",
+    "scrollbarSlider.activeBackground": "#8c3ce2ca"
   },
   "workbench.iconTheme": "material-icon-theme",
-  "material-icon-theme.folders.color": "#a78bfa",
+  "material-icon-theme.folders.color": "#a3ffbf",
   "editor.fontFamily": "\"SF Mono Ligatures\"",
   "editor.fontLigatures": true,
   "workbench.editor.wrapTabs": true,
@@ -21,49 +22,7 @@
     "rgb(156, 25, 224,0.025);)",
     "rgb(0, 13, 107,0.025);"
   ],
-  "editor.tokenColorCustomizations": {
-    "[Evondev Dracula Normal Contrast]": {
-      "textMateRules": [
-        {
-          "scope": "variable.other.constant.js",
-          "settings": {
-            "foreground": "#84DFFF"
-          }
-        },
-        {
-          "scope": "variable.other.property.js",
-          "settings": {
-            "foreground": "#6be7b2"
-          }
-        },
-        {
-          "scope": "string",
-          "settings": {
-            "foreground": "#f7f8aaf6"
-          }
-        },
-        {
-          "scope": "variable.other.object",
-          "settings": {
-            "foreground": "#6eabf1"
-          }
-        },
-        {
-          "scope": "meta.brace.round",
-          "settings": {
-            "foreground": "#fff"
-          }
-        },
-        {
-          "scope": "variable.other.readwrite.js",
-          "settings": {
-            "foreground": "#c0c6fd"
-          }
-        }
-      ]
-    }
-  },
-
+  "editor.tokenColorCustomizations": {},
   "editor.lineHeight": 2,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.colorTheme": "Evondev Dracula Normal Constrast - No Highlight",
