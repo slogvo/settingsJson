@@ -1,9 +1,22 @@
+.mtk3 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(-60deg, #ff8b8b 0%, #ffc26e 100%);
+}
+
 .mtk5 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: bold;
-  background-image: linear-gradient(0deg, rgb(50, 247, 175), #21ebb5);
+  background-image: linear-gradient(
+    0deg,
+    rgb(41, 250, 125),
+    rgb(50, 247, 175),
+    rgb(118, 253, 217)
+  );
 }
 
 .mtk14 {
@@ -30,15 +43,27 @@
   );
 }
 
+.mtk16 {
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  background-image: linear-gradient(
+    180deg,
+    rgb(199, 255, 179),
+    rgb(244, 255, 163)
+  );
+}
+
 .mtk17 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: bold;
   background-image: linear-gradient(
-    45deg,
-    rgb(52, 204, 250),
-    rgb(21, 196, 254)
+    135deg,
+    rgb(26, 201, 255),
+    rgb(20, 230, 216)
   );
 }
 
@@ -48,12 +73,18 @@
   -webkit-background-clip: text;
   font-weight: bold;
   background-image: linear-gradient(
-    180deg,
+    90deg,
+    rgb(171, 107, 250),
     rgb(155, 126, 251),
-    rgb(171, 107, 250)
+    rgb(207, 149, 250)
   );
 }
 
+.monaco-highlighted-label > span {
+  color: inherit;
+}
+
+/* tab1 */
 .monaco-workbench
   .part.editor
   > .content
@@ -89,7 +120,6 @@
     background-position: 0% 50%;
   }
 }
-
 .monaco-editor .cursors-layer .cursor {
   background-image: linear-gradient(
     135deg,
@@ -97,3 +127,236 @@
     rgb(247, 54, 83)
   );
 }
+/* tab2 */
+/*
+:root {
+  --size: 5px;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:before,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:after {
+  content: "";
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  border: 2px solid;
+  border-image-slice: 1;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:before {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-image-source: linear-gradient(-45deg, #4dd78a, #20e3b2);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:after {
+  right: 0;
+  bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  border-image-source: linear-gradient(-45deg, #6a5af9, #d66efd);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:before,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:after {
+  content: "";
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  border: 2px solid;
+  border-image-slice: 1;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:before {
+  left: 0;
+  bottom: 0;
+  border-top: 0;
+  border-right: 0;
+  border-image-source: linear-gradient(-45deg, #fc6c8f, #ffb86c);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:after {
+  top: 0;
+  right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
+}
+
+ :root {
+  --size: 5px;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:before,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:after {
+  content: "";
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  border: 2px solid;
+  border-image-slice: 1;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:before {
+  top: 0;
+  left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-image-source: linear-gradient(-45deg, #4dd78a, #20e3b2);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container:after {
+  right: 0;
+  bottom: 0;
+  border-top: 0;
+  border-left: 0;
+  border-image-source: linear-gradient(-45deg, #6a5af9, #d66efd);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:before,
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:after {
+  content: "";
+  width: var(--size);
+  height: var(--size);
+  position: absolute;
+  border: 2px solid;
+  border-image-slice: 1;
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:before {
+  left: 0;
+  bottom: 0;
+  border-top: 0;
+  border-right: 0;
+  border-image-source: linear-gradient(-45deg, #fc6c8f, #ffb86c);
+}
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active:after {
+  top: 0;
+  right: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
+} */
