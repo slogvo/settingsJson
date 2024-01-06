@@ -2,19 +2,19 @@
   "editor.tabCompletion": "onlySnippets",
   "editor.snippetSuggestions": "top",
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#27bee8ef",
+    "titleBar.activeBackground": "#8427e8ef",
     "scrollbarSlider.activeBackground": "#8c3ce2ca"
   },
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.color": "#a3ffbf",
-  "editor.fontFamily": "\"SF Mono Ligatures\"",
+  "editor.fontFamily": "\"SF Mono\"",
   "editor.fontLigatures": true,
   "workbench.editor.wrapTabs": true,
   "editor.wordWrap": "on",
 
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.fixAll.eslint": false
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "never"
   },
   "indentRainbow.colors": [
     "rgb(153, 221, 204, 0.025);",
@@ -25,7 +25,7 @@
   "editor.tokenColorCustomizations": {},
   "editor.lineHeight": 2,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Evondev Dracula Normal Constrast - No Highlight",
+  "workbench.colorTheme": "Evondev Dracula Night Contrast",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
@@ -66,9 +66,16 @@
   },
   "npm.keybindingsChangedWarningShown": true,
   "tabnine.experimentalAutoImports": true,
-  "window.zoomLevel": 0.5,
   "editor.fontSize": 15,
-  "vscode_custom_css.imports": [
-    "file:///C:/Users/ASUS/VSCode_Extension/colorsText.css"
-  ]
+  "vscode_custom_css.imports": ["file:///C:/Users/volon/colorsText.css"],
+  "security.workspace.trust.untrustedFiles": "open",
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "editor.mouseWheelZoom": true
 }
