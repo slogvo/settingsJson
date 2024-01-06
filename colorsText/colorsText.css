@@ -85,7 +85,7 @@
 }
 
 /* tab1 */
-.monaco-workbench
+/* .monaco-workbench
   .part.editor
   > .content
   .editor-group-container
@@ -126,9 +126,9 @@
     rgb(244, 183, 62),
     rgb(247, 54, 83)
   );
-}
+} */
 /* tab2 */
-/*
+/* 
 :root {
   --size: 5px;
 }
@@ -245,7 +245,7 @@
   border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
 }
 
- :root {
+:root {
   --size: 5px;
 }
 .monaco-workbench
@@ -360,3 +360,45 @@
   border-bottom: 0;
   border-image-source: linear-gradient(-45deg, #098dff, #2cccff);
 } */
+
+/* tab 3 */
+.tab-border-top-container {
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: xor;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  padding: 1px;
+  width: 100% !important;
+  height: calc(100% - 3px) !important;
+  background-color: transparent !important;
+}
+.tab-border-top-container:before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: spinner 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+  background: conic-gradient(
+      from 0deg at 50% 51.35%,
+      rgba(185, 215, 243, 0) 0deg,
+      rgba(185, 215, 243, 0) 289.4deg,
+      #8943f9 318.05deg,
+      #fae87f 1turn
+    ),
+    conic-gradient(
+      from 180deg at 50% 51.35%,
+      rgba(185, 215, 243, 0) 0deg,
+      rgba(185, 215, 243, 0) 287.46deg,
+      #55fca6 325.02deg,
+      #00aefd 1turn
+    );
+}
+@keyframes spinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+}
