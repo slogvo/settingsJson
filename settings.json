@@ -25,7 +25,7 @@
   "editor.tokenColorCustomizations": {},
   "editor.lineHeight": 2,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Evondev Dracula Night Contrast",
+  "workbench.colorTheme": "Tailwind - Darkest",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
@@ -57,25 +57,15 @@
     "strings": "on",
     "other": "on"
   },
-  "php.validate.executablePath": "C:/xampp/php/php.exe",
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "files.associations": {
-    "*.php": "php"
-  },
-  "npm.keybindingsChangedWarningShown": true,
   "tabnine.experimentalAutoImports": true,
   "editor.fontSize": 15,
   "vscode_custom_css.imports": ["file:///C:/Users/volon/colorsText.css"],
   "security.workspace.trust.untrustedFiles": "open",
   "turboConsoleLog.includeFileNameAndLineNum": false,
-  "[solidity]": {
-    "editor.defaultFormatter": "JuanBlanco.solidity"
-  },
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.openRepositoryInParentFolders": "never",
-  "editor.mouseWheelZoom": true
+  "editor.mouseWheelZoom": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
