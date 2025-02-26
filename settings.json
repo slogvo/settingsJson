@@ -5,6 +5,15 @@
     "titleBar.activeBackground": "#8427e8ef",
     "scrollbarSlider.activeBackground": "#8c3ce2ca"
   },
+  "tailwindCSS.includeLanguages": {
+    "javascript": "typescript",
+    "typescriptreact": "typescript",
+    "javascript.jsx": "typescript",
+    "typescript.tsx": "typescript",
+    "html": "html",
+    "vue": "html",
+    "vue-html": "html"
+  },
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.folders.color": "#a3ffbf",
   "editor.fontFamily": "\"SF Mono\"",
@@ -25,7 +34,7 @@
   "editor.tokenColorCustomizations": {},
   "editor.lineHeight": 2,
   "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Tailwind - Darkest",
+  "workbench.colorTheme": "Evondev Dracula Night Contrast",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.inlineSuggest.enabled": true,
   "editor.formatOnSave": true,
@@ -59,7 +68,10 @@
   },
   "tabnine.experimentalAutoImports": true,
   "editor.fontSize": 15,
-  "vscode_custom_css.imports": ["file:///C:/Users/volon/colorsText.css"],
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/volon/colorsText.css",
+    "file:///c:/Users/volon/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
   "security.workspace.trust.untrustedFiles": "open",
   "turboConsoleLog.includeFileNameAndLineNum": false,
   "[vue]": {
